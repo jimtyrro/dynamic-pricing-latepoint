@@ -24,7 +24,7 @@ debug.log
 # Node modules (if any)
 node_modules/
 
-# Composer vendor (already in repo, but good practice)
+# Composer vendor (keep in repo for complete distribution)
 # vendor/
 
 # WordPress specific
