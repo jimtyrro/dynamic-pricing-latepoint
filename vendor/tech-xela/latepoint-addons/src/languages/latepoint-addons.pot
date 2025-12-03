@@ -1,0 +1,699 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: LatePoint Addons Framework\n"
+"POT-Creation-Date: 2023-07-09 08:59-0400\n"
+"PO-Revision-Date: 2022-02-02 09:43-0500\n"
+"Last-Translator: TechXela <l10n@techxela.com>\n"
+"Language-Team: TechXela <l10n@techxela.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_attr_tx__;esc_attr_tx_e;esc_html_tx__;"
+"esc_html_tx_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: CoreAddon.php:375
+msgid "Name"
+msgstr ""
+
+#: CoreAddon.php:376
+msgid "Error encountered while refreshing condition. Please contact support."
+msgstr ""
+
+#: CoreAddon.php:377
+msgid "You need to have at least one condition if conditional is enabled."
+msgstr ""
+
+#: Licensing/API.php:36
+#, php-format
+msgid ""
+"If you are seeing this error while trying to develop with LatePoint Addons "
+"Framework, please contact us: %s"
+msgstr ""
+
+#: Licensing/API.php:129 Licensing/API.php:159
+msgid "Request failed or connection error"
+msgstr ""
+
+#: SMSAddon.php:198
+msgid "Instructions"
+msgstr ""
+
+#: SMSAddon.php:225
+msgid "No recipient phone number(s) provided."
+msgstr ""
+
+#: SMSAddon.php:229 lib/controllers/core/license_controller.php:35
+msgid "Please register your license to perform that action."
+msgstr ""
+
+#: SMSAddon.php:283
+#, php-format
+msgid "SMS message sent to %d of %d recipients."
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:85
+msgid "Booking Custom Field"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:92
+msgid "Customer Custom Field"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:97
+msgid "Location Category"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:101
+msgid "Coupon"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:145
+msgid "Total Attendees"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:157
+msgid "Service Extras Count"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:161
+msgid "Service Extras Cost"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:178
+msgid "Parent Category"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:208
+msgid "Minimum Capacity"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:212
+msgid "Maximum Capacity"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:245
+msgid "Admin Notes"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:249
+msgid "Timezone"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:337
+msgid "Full Address"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:346
+msgid "Code"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:377
+msgid "On"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:378
+msgid "Off"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:397
+msgid "Object"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:434
+msgid "is included in"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:435
+msgid "is excluded from"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:440
+msgid "less than"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:441
+msgid "less than or equal to"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:442
+msgid "equal to"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:443
+msgid "not equal to"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:444
+msgid "greater than"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:445
+msgid "greater than or equal to"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:446
+msgid "divisible by"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:447
+msgid "multiple of"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:448
+msgid "is even"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:449
+msgid "is odd"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:455
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:467
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:480
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:491
+msgid "is"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:456
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:468
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:481
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:492
+msgid "is not"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:457
+msgid "starts with"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:458
+msgid "does not start with"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:459
+msgid "ends with"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:460
+msgid "does not end with"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:461
+msgid "contains"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:462
+msgid "does not contain"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:469
+msgid "is on a"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:470
+msgid "is not on a"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:471
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:482
+msgid "is before"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:472
+msgid "is on or before"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:473
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:484
+msgid "is after"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:474
+msgid "is on or after"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:475
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:486
+msgid "is between"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:483
+msgid "is at or before"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:485
+msgid "is at or after"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:527
+msgid "AND"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:528
+msgid "OR"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:702
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:743
+msgid "End"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:763
+msgid "Nothing selected"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:770
+msgid "Any Service Category"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:775
+msgid "Any Service"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:781
+msgid "Any Customer"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:787
+msgid "Any Address"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:793
+msgid "Any Agent"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:798
+msgid "Any Location Category"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:803
+msgid "Any Location"
+msgstr ""
+
+#: Traits/FormBlock/IsConditionalFormBlockHelper.php:809
+msgid "Any Coupon"
+msgstr ""
+
+#: Traits/FormBlock/IsFormBlockController.php:189
+#, php-format
+msgid "%s Saved"
+msgstr ""
+
+#: Traits/FormBlock/IsFormBlockController.php:192
+#, php-format
+msgid "Error Saving %s"
+msgstr ""
+
+#: Traits/FormBlock/IsFormBlockController.php:220
+msgid "Order Updated"
+msgstr ""
+
+#: Traits/FormBlock/IsFormBlockController.php:223
+#, php-format
+msgid "Error Updating Order of %s"
+msgstr ""
+
+#: Traits/FormBlock/IsFormBlockController.php:238
+#, php-format
+msgid "%s Removed"
+msgstr ""
+
+#: Traits/FormBlock/IsFormBlockController.php:241
+#, php-format
+msgid "Error Removing %s"
+msgstr ""
+
+#: Traits/FormBlock/IsFormBlockController.php:245
+#, php-format
+msgid "Invalid %s ID"
+msgstr ""
+
+#: Traits/FormBlock/IsFormBlockHelper.php:69
+msgid "Schedule From must be a valid date"
+msgstr ""
+
+#: Traits/FormBlock/IsFormBlockHelper.php:72
+msgid "Schedule To must be a valid date"
+msgstr ""
+
+#: Traits/FormBlock/IsRecurringFormBlockHelper.php:21
+msgid "Hours"
+msgstr ""
+
+#: Traits/FormBlock/IsRecurringFormBlockHelper.php:22
+msgid "Days"
+msgstr ""
+
+#: Traits/FormBlock/IsRecurringFormBlockHelper.php:23
+msgid "Weeks"
+msgstr ""
+
+#: Traits/FormBlock/IsRecurringFormBlockHelper.php:24
+msgid "Months"
+msgstr ""
+
+#: Traits/FormBlock/IsRecurringFormBlockHelper.php:25
+msgid "Years"
+msgstr ""
+
+#: latepoint-addons-framework-helper.php:122
+#, php-format
+msgid "Could not locate a file which declares the %s class"
+msgstr ""
+
+#: latepoint-addons-framework-helper.php:161
+#: lib/helpers/core/menu_helper.php:42
+msgid "Licenses"
+msgstr ""
+
+#: latepoint-addons-framework-helper.php:186
+#, php-format
+msgid ""
+"License is missing or invalid. Activate your purchase code to receive free "
+"%s compatibility and security updates.%s Activate now%s"
+msgstr ""
+
+#: latepoint-addons-framework-helper.php:209
+#, php-format
+msgid ""
+"There is a new version of %s available. %sView version %s details%s or "
+"%supdate now%s."
+msgstr ""
+
+#: latepoint-addons-framework-helper.php:259
+#: latepoint-addons-framework-helper.php:277
+msgid "Install Additional SMS Add-Ons"
+msgstr ""
+
+#: latepoint-addons-framework-helper.php:304
+msgid "Install Additional Meeting Add-Ons"
+msgstr ""
+
+#: latepoint-addons-framework-helper.php:332
+msgid "Install Additional Marketing Add-Ons"
+msgstr ""
+
+#: latepoint-addons-framework-helper.php:360
+msgid "Install Additional Calendar Add-Ons"
+msgstr ""
+
+#: lib/controllers/core/license_controller.php:63
+msgid "Please check your entries and try again."
+msgstr ""
+
+#: lib/controllers/core/license_controller.php:87
+msgid "No addon specified. Please refresh the page and try again."
+msgstr ""
+
+#: lib/controllers/sms/quick_sms_controller.php:27
+msgid "New Template"
+msgstr ""
+
+#: lib/controllers/sms/quick_sms_controller.php:28
+#: lib/views/sms/quick_sms/send_form.php:32
+msgid "Template"
+msgstr ""
+
+#: lib/controllers/sms/quick_sms_controller.php:29
+#: lib/helpers/sms/settings_helper.php:55
+msgid "Templates"
+msgstr ""
+
+#: lib/controllers/sms/quick_sms_controller.php:31
+msgid "Add Quick SMS Template"
+msgstr ""
+
+#: lib/controllers/sms/quick_sms_controller.php:45
+msgid "Booking not found"
+msgstr ""
+
+#: lib/controllers/sms/quick_sms_controller.php:62
+msgid "Template not found"
+msgstr ""
+
+#: lib/controllers/sms/quick_sms_controller.php:76
+msgid "You are not authorized to perform that action"
+msgstr ""
+
+#: lib/helpers/core/addons_helper.php:55
+msgid "Unable to perform that action. Please try again"
+msgstr ""
+
+#: lib/helpers/core/addons_helper.php:66
+#, php-format
+msgid "Addon %s"
+msgstr ""
+
+#: lib/helpers/core/debug_helper.php:30
+msgid "Error encountered. See exception"
+msgstr ""
+
+#: lib/helpers/core/license_helper.php:65
+#: lib/helpers/core/license_helper.php:142
+#, php-format
+msgid ""
+"Connection Error. Please try again in a few minutes or contact us at %s."
+msgstr ""
+
+#: lib/helpers/core/processes_helper.php:35
+msgid "Install WhatsApp Add-on"
+msgstr ""
+
+#: lib/helpers/core/processes_helper.php:41
+msgid "Install Push Notifications Add-on"
+msgstr ""
+
+#: lib/helpers/core/roles_helper.php:29
+msgid "List"
+msgstr ""
+
+#: lib/helpers/core/roles_helper.php:32
+msgid "Manage"
+msgstr ""
+
+#: lib/helpers/core/roles_helper.php:35
+msgid "Updates"
+msgstr ""
+
+#: lib/helpers/sms/activities_helper.php:31
+msgid "Errors"
+msgstr ""
+
+#: lib/helpers/sms/activities_helper.php:36
+msgid "Extra Data"
+msgstr ""
+
+#: lib/helpers/sms/booking_helper.php:22
+#: lib/helpers/sms/booking_helper.php:43 lib/helpers/sms/roles_helper.php:34
+#: lib/helpers/sms/settings_helper.php:34
+msgid "Quick SMS"
+msgstr ""
+
+#: lib/helpers/sms/booking_helper.php:26
+#: lib/views/sms/quick_sms/send_form.php:21
+#, php-format
+msgid "Quick SMS messages sent for this booking: %s"
+msgstr ""
+
+#: lib/helpers/sms/booking_helper.php:35
+msgid "Compose Quick SMS"
+msgstr ""
+
+#: lib/helpers/sms/debug_helper.php:25
+#, php-format
+msgid "Error sending SMS via %s "
+msgstr ""
+
+#: lib/helpers/sms/menu_helper.php:22
+msgid "SMS Tester"
+msgstr ""
+
+#: lib/helpers/sms/roles_helper.php:37
+msgid "Send"
+msgstr ""
+
+#: lib/helpers/sms/settings_helper.php:45
+msgid "Enable Quick SMS"
+msgstr ""
+
+#: lib/helpers/sms/settings_helper.php:59
+msgid ""
+"You can use variables in your template content. Just click on the variable "
+"with {} brackets and it will automatically copy to your buffer and you can "
+"simply paste it where you want to use it. It will be converted into a "
+"value for the agent/customer or appointment."
+msgstr ""
+
+#: lib/helpers/sms/settings_helper.php:66
+msgid "Other Settings"
+msgstr ""
+
+#: lib/helpers/sms/settings_helper.php:71
+msgid "Indicate sent quick SMS"
+msgstr ""
+
+#: lib/helpers/sms/settings_helper.php:74
+msgid ""
+"Change the Quick SMS button color to green (on the calendar), indicating "
+"that quick sms message(s) have been sent."
+msgstr ""
+
+#: lib/helpers/sms/templates_helper.php:35
+msgid "Content cannot be empty"
+msgstr ""
+
+#: lib/helpers/sms/templates_helper.php:45
+msgid "Content"
+msgstr ""
+
+#: lib/helpers/sms/templates_helper.php:59
+msgid "Select a template"
+msgstr ""
+
+#: lib/views/core/form_block/new_form.php:48
+msgid "Conditional"
+msgstr ""
+
+#: lib/views/core/form_block/new_form.php:51
+msgid "Apply only when conditions are met"
+msgstr ""
+
+#: lib/views/core/form_block/new_form.php:56
+msgid "Apply if"
+msgstr ""
+
+#: lib/views/core/form_block/new_form.php:75
+msgid "Scheduling"
+msgstr ""
+
+#: lib/views/core/form_block/new_form.php:82
+msgid "Apply only during a specific date range"
+msgstr ""
+
+#: lib/views/core/form_block/new_form.php:94
+msgid "From"
+msgstr ""
+
+#: lib/views/core/form_block/new_form.php:101
+msgid "To"
+msgstr ""
+
+#: lib/views/core/form_block/new_form.php:114
+msgid "Recurring"
+msgstr ""
+
+#: lib/views/core/form_block/new_form.php:120
+msgid "Repeat the above schedule"
+msgstr ""
+
+#: lib/views/core/form_block/new_form.php:129
+msgid "Repeat every"
+msgstr ""
+
+#: lib/views/core/form_block/new_form.php:158
+msgid "Active"
+msgstr ""
+
+#: lib/views/core/form_block/new_form.php:172
+#: lib/views/core/form_block/new_form.php:186
+#, php-format
+msgid "Are you sure you want to delete this %s?"
+msgstr ""
+
+#: lib/views/core/form_block/new_form.php:179
+#, php-format
+msgid "Save %s"
+msgstr ""
+
+#: lib/views/core/license/_license_form.php:15
+msgid "Purchase Code Verification"
+msgstr ""
+
+#: lib/views/core/license/_license_form.php:36
+msgid "Please enter your Envato Purchase Code to receive free addon updates."
+msgstr ""
+
+#: lib/views/core/license/_license_form.php:46
+#, php-format
+msgid ""
+"If your license was purchased with guest checkout, enter your full name in "
+"the %sYour Envato Username%s field instead."
+msgstr ""
+
+#: lib/views/core/license/_license_form.php:67
+msgid "Activate Purchase Code"
+msgstr ""
+
+#: lib/views/core/license/_license_form.php:73
+msgid "Where Is My Purchase Code?"
+msgstr ""
+
+#: lib/views/core/license/index.php:34
+msgid "Your license is active! Enjoy free, lifetime addon updates."
+msgstr ""
+
+#: lib/views/core/license/index.php:38
+msgid "License Info"
+msgstr ""
+
+#: lib/views/core/license/index.php:42
+msgid "Are you sure you want to deactivate your license?"
+msgstr ""
+
+#: lib/views/core/license/index.php:47
+msgid "Deactivate License"
+msgstr ""
+
+#: lib/views/core/license/index.php:52
+msgid "Your Envato Username"
+msgstr ""
+
+#: lib/views/core/license/index.php:53
+msgid "Your Email Address"
+msgstr ""
+
+#: lib/views/core/license/index.php:54
+msgid "Purchase Code"
+msgstr ""
+
+#: lib/views/core/license/index.php:62
+msgid "Register your license to receive free addon updates."
+msgstr ""
+
+#: lib/views/sms/quick_sms/send_form.php:15
+msgid "Quick SMS - Appointment #"
+msgstr ""
+
+#: lib/views/sms/quick_sms/send_form.php:17
+msgid ""
+"You can use agent, customer and appointment variables in your message "
+"content."
+msgstr ""
+
+#: lib/views/sms/quick_sms/send_form.php:41 lib/views/sms/tester/index.php:35
+msgid "Message"
+msgstr ""
+
+#: lib/views/sms/quick_sms/send_form.php:50
+msgid "Send To"
+msgstr ""
+
+#: lib/views/sms/quick_sms/send_form.php:60 lib/views/sms/tester/index.php:43
+msgid "Send SMS"
+msgstr ""
+
+#: lib/views/sms/tester/index.php:20
+msgid "Compose New SMS"
+msgstr ""
+
+#: lib/views/sms/tester/index.php:27
+msgid "Recipient"
+msgstr ""

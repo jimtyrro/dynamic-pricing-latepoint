@@ -1,0 +1,48 @@
+{
+    "packages": [
+        {
+            "name": "tech-xela/latepoint-addons",
+            "version": "16.13.0",
+            "version_normalized": "16.13.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:tech-xela/latepoint-addons.git",
+                "reference": "268d3f6f514f4fe7c4d51d10f6f1c90e768fe695"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tech-xela/latepoint-addons/zipball/268d3f6f514f4fe7c4d51d10f6f1c90e768fe695",
+                "reference": "268d3f6f514f4fe7c4d51d10f6f1c90e768fe695",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "time": "2023-11-15T10:36:16+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "TechXela\\LatePointAddons\\": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "TechXela",
+                    "email": "git@techxela.com"
+                }
+            ],
+            "description": "Framework for quick, stable development of LatePoint addons.",
+            "support": {
+                "source": "https://github.com/tech-xela/latepoint-addons/tree/16.13.0",
+                "issues": "https://github.com/tech-xela/latepoint-addons/issues"
+            },
+            "install-path": "../tech-xela/latepoint-addons"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

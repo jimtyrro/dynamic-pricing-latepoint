@@ -1,0 +1,18 @@
+@mixin loading-circle($color: #fff, $width: 14px){
+  display: block;
+  content: "";
+  width: $width!important;
+  height: $width!important;
+  border-bottom: 2px solid $color;
+  border-left: 2px solid $color;
+  border-top: 2px solid $color;
+  border-right: 2px solid rgba(255,255,255,0);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: os-loading 700ms infinite linear;
+  background-color: transparent!important;
+  z-index: 999;
+}

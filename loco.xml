@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="Dynamic Pricing for LatePoint">
+  <domain name="dynamic-pricing-latepoint">
+    <project name="Dynamic Pricing for LatePoint" slug="dynamic-pricing-latepoint">
+      <source>
+        <file>dynamic-pricing-latepoint.php</file>
+      </source>
+      <target>
+        <directory>.</directory>
+      </target>
+      <template>
+        <file>languages/dynamic-pricing-latepoint.pot</file>
+      </template>
+    </project>
+  </domain>
+  <domain name="latepoint-addons">
+    <project name="LatePoint Addons Framework" slug="latepoint-addons">
+      <target>
+        <directory>.</directory>
+      </target>
+      <template>
+        <file>vendor/tech-xela/latepoint-addons/src/languages/latepoint-addons.pot</file>
+      </template>
+    </project>
+  </domain>
+</bundle>

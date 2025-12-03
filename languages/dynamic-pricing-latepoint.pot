@@ -1,0 +1,152 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Dynamic Pricing for LatePoint\n"
+"POT-Creation-Date: 2023-08-02 00:59-0400\n"
+"PO-Revision-Date: 2023-03-02 13:07-0500\n"
+"Last-Translator: TechXela <l10n@techxela.com>\n"
+"Language-Team: TechXela <l10n@techxela.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: dynamic-pricing-latepoint.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: esc_attr_tx__;esc_attr_tx_e;esc_html_tx__;"
+"esc_html_tx_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: dynamic-pricing-latepoint.php:126
+msgid ""
+"Error encountered while refreshing pricing rule condition. Please contact "
+"support."
+msgstr ""
+
+#: dynamic-pricing-latepoint.php:127
+msgid ""
+"You need to have at least one condition in your conditional pricing rule."
+msgstr ""
+
+#: lib/controllers/admin_controller.php:26 lib/helpers/menu_helper.php:20
+msgid "Dynamic Pricing"
+msgstr ""
+
+#: lib/controllers/rules_controller.php:27
+msgid "New Rule"
+msgstr ""
+
+#: lib/controllers/rules_controller.php:28
+msgid "Rule"
+msgstr ""
+
+#: lib/controllers/rules_controller.php:29
+msgid "Rules"
+msgstr ""
+
+#: lib/controllers/rules_controller.php:31
+msgid "Add Rule"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:25
+msgid "Price Modifiers"
+msgstr ""
+
+#: lib/helpers/rules_helper.php:59
+msgid "Modifier"
+msgstr ""
+
+#: lib/helpers/rules_helper.php:70
+msgid "By"
+msgstr ""
+
+#: lib/helpers/rules_helper.php:84
+msgid "Apply modifier to"
+msgstr ""
+
+#: lib/helpers/rules_helper.php:93
+msgid "Apply modifier to full amount"
+msgstr ""
+
+#: lib/helpers/rules_helper.php:97
+msgid "Apply increase/decrease to full booking/service price"
+msgstr ""
+
+#: lib/helpers/rules_helper.php:103
+msgid "Apply modifier to deposit amount"
+msgstr ""
+
+#: lib/helpers/rules_helper.php:107
+msgid "Apply increase/decrease to booking/service deposit amount"
+msgstr ""
+
+#: lib/helpers/rules_helper.php:116
+msgid "Multiply modifier by"
+msgstr ""
+
+#: lib/helpers/rules_helper.php:132
+msgid "Appearance"
+msgstr ""
+
+#: lib/helpers/rules_helper.php:137
+msgid "Show on booking summary and confirmation step"
+msgstr ""
+
+#: lib/helpers/rules_helper.php:147
+msgid "Please register your license to perform that action."
+msgstr ""
+
+#: lib/helpers/rules_helper.php:189
+msgid "Increase"
+msgstr ""
+
+#: lib/helpers/rules_helper.php:190
+msgid "Decrease"
+msgstr ""
+
+#: lib/helpers/rules_helper.php:196
+msgid "Fixed Amount"
+msgstr ""
+
+#: lib/helpers/rules_helper.php:197
+msgid "Percent"
+msgstr ""
+
+#: lib/helpers/rules_helper.php:210
+msgid "Do not multiply"
+msgstr ""
+
+#: lib/helpers/rules_helper.php:211
+msgid "Booking Attendees"
+msgstr ""
+
+#: lib/views/settings/index.php:19
+msgid ""
+"Define the rules that will apply to customers' booking or service price."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Dynamic Pricing for LatePoint"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://1.envato.market/dynamic-pricing-latepoint"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"LatePoint add-on which allows for dynamic service/booking prices, based "
+"on one or more conditions."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "TechXela"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://techxela.com"
+msgstr ""

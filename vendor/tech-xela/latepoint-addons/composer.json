@@ -1,0 +1,21 @@
+{
+  "name": "tech-xela/latepoint-addons",
+  "description": "Framework for quick, stable development of LatePoint addons.",
+  "type": "library",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "TechXela\\LatePointAddons\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "TechXela",
+      "email": "git@techxela.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.3"
+  }
+}

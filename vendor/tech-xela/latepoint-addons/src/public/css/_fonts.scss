@@ -1,0 +1,56 @@
+@font-face {
+  font-family: '#{$tx-lp-font-family}';
+  src: url('#{$tx-lp-font-path}/#{$tx-lp-font-family}.eot?1qlp5l');
+  src: url('#{$tx-lp-font-path}/#{$tx-lp-font-family}.eot?1qlp5l#iefix') format('embedded-opentype'),
+  url('#{$tx-lp-font-path}/#{$tx-lp-font-family}.ttf?1qlp5l') format('truetype'),
+  url('#{$tx-lp-font-path}/#{$tx-lp-font-family}.woff?1qlp5l') format('woff'),
+  url('#{$tx-lp-font-path}/#{$tx-lp-font-family}.svg?1qlp5l##{$tx-lp-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.techxela-latepoint-icons {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$tx-lp-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.push-notifs-icon {
+  &:before {
+    content: $push-notifs-icon;
+  }
+}
+
+.techxela-icon {
+  &:before {
+    content: $techxela-icon;
+  }
+}
+
+.referrals-icon {
+  &:before {
+    content: $referrals-icon;
+  }
+}
+
+.whatsapp-icon {
+  &:before {
+    content: $whatsapp-icon;
+  }
+}
+
+.reviews-icon {
+  &:before {
+    content: $reviews-icon;
+  }
+}

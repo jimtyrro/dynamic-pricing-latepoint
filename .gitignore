@@ -1,0 +1,36 @@
+# Backup files
+*.BACKUP*
+*.WORKING_BACKUP
+*.BEFORE_*
+*.bak*
+*.performance_bak
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+debug.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Node modules (if any)
+node_modules/
+
+# Composer vendor (already in repo, but good practice)
+# vendor/
+
+# WordPress specific
+wp-config.php
+.htaccess
+
+# Environment files
+.env
+.env.local

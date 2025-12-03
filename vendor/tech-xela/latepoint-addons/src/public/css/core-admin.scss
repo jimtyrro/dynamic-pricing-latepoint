@@ -1,0 +1,290 @@
+/*
+ * LatePoint Addons Framework
+ * Copyright (c) 2021-2023 TechXela (https://codecanyon.net/user/tech-xela). All Rights Reserved.
+ *
+ * LICENSE
+ * -------
+ * This software is furnished under license(s) and may be used and copied only in accordance with the terms of such
+ * license(s) along with the inclusion of the above copyright notice. If you purchased an item through CodeCanyon, in
+ * which this software came included, please read the full license(s) at: https://codecanyon.net/licenses/standard
+ */
+
+@import "_variables";
+@import "_mixins";
+@import "_fonts";
+@import "_spacings";
+
+.latepoint-side-menu-w ul.side-menu > li > a > i.techxela-latepoint-icons.techxela-icon {
+  font-size: 13px !important;
+}
+
+@media (min-width: 601px) {
+  .latepoint-side-menu-w.side-menu-compact ul.side-menu > li > a > i.techxela-latepoint-icons.techxela-icon {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .latepoint-lightbox-w .latepoint-lightbox-i {
+    width: 450px !important;
+  }
+}
+
+.os-page-tabs-w {
+  overflow-x: auto;
+  overflow-y: clip;
+}
+
+.techxela-license-card {
+  .techxela-license-card-sub-header {
+    margin-top: 15px !important;
+  }
+
+  .license-info-w {
+    border-top: unset;
+  }
+}
+
+.tx-external-link {
+  color: $brand-primary !important;
+  border-bottom: 1px dotted $brand-primary !important;
+  text-decoration: none;
+
+  &:focus, &:hover {
+    color: darken($brand-primary, 15%) !important;
+    border-bottom: 1px solid darken($brand-primary, 15%) !important;
+  }
+}
+
+.very-bold-text {
+  font-weight: bold !important;
+}
+
+.text-red {
+  color: #d91010;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.text-align-right {
+  text-align: right !important;
+}
+
+label.right-aligned-label {
+  left: unset !important;
+  right: 0;
+}
+
+.tx-lp-settings-section-header {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+
+  &:not(:first-child) {
+    margin-top: 20px;
+  }
+}
+
+.tx-latepoint-tabs {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0 0 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &.tx-latepoint-unjustified-tabs {
+    justify-content: unset !important;
+  }
+
+  a {
+    display: block;
+    padding: 10px 0;
+    font-weight: 500;
+    text-decoration: none;
+    box-shadow: none;
+    color: #8e97b3;
+    position: relative;
+    font-size: 19px;
+    margin-right: 40px;
+
+    &:after {
+      content: "";
+      height: 2px;
+      background-color: #2d54de;
+      left: 0;
+      bottom: -1px;
+      display: block;
+      position: absolute;
+    }
+
+    &.active {
+      color: #2d54de;
+
+      &:after {
+        width: 100%;
+      }
+    }
+
+    &.active, &:hover, &:focus {
+      text-decoration: none;
+    }
+  }
+}
+
+.tx-latepoint-tab-content {
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}
+
+.os-form-w {
+  .sub-section-row {
+    &.with-top-border {
+      border-top: 1px solid #e1e3ea;
+    }
+  }
+
+  .tx-date-group {
+    display: flex !important;
+
+    & + .tx-date-group {
+      border-top: 1px solid #E0E6F0;
+    }
+
+    .tx-date-field {
+      height: 36px !important;
+      font-size: 14px !important;
+      color: #32373c !important;
+    }
+
+    .tx-date-field-edit-btn {
+      background-color: #E4E5E9 !important;
+      border-radius: 4px !important;
+      margin-left: -43.5px;
+      z-index: 10;
+      border: 1px solid transparent !important;
+      border-top-left-radius: 0 !important;
+      border-bottom-left-radius: 0 !important;
+      height: 33px !important;
+
+      &:hover, &:active {
+        background-color: transparent !important;
+        color: $brand-primary !important;
+        border: 1px solid $brand-primary !important;
+      }
+    }
+
+    &.as-period {
+      display: flex;
+      align-items: center;
+      padding: 8px;
+      margin-bottom: 0;
+
+      label {
+        padding-right: 10px;
+        padding-left: 5px;
+      }
+
+      &:nth-child(2) {
+        label {
+          padding-right: 27px;
+        }
+      }
+
+      input.os-form-control {
+        margin-left: auto;
+      }
+
+      .tx-date-input-w {
+        margin-left: auto;
+        justify-content: flex-end;
+      }
+    }
+  }
+}
+
+.tx-form-block {
+  .form-block-condition {
+    .form-block-condition-gate-w {
+      min-width: fit-content;
+    }
+
+    &:nth-child(2) {
+      .form-block-condition-gate-w {
+        display: none !important;
+      }
+    }
+
+    .form-block-condition-target-prop-w {
+      flex: 1;
+    }
+
+    .form-block-condition-comparison-w {
+      flex: 1;
+    }
+
+    .form-block-condition-value-w {
+      flex: 1;
+
+      input {
+        &:not(.os-mask-time) {
+          min-width: 150px;
+        }
+      }
+
+      textarea {
+        min-width: 200px;
+        min-height: 36px !important;
+      }
+
+      &:not(.ws-period) {
+        input {
+          &.os-mask-time {
+            min-width: max-content;
+            min-height: 36px !important;
+          }
+        }
+      }
+    }
+
+    .ws-period {
+      margin-bottom: 0 !important;
+      margin-right: 10px !important;
+
+      .tx-date-group {
+        margin-right: 0 !important;
+      }
+    }
+
+    &.os-loading {
+      color: transparent;
+
+      &:before {
+        @include loading-circle($brand-primary);
+      }
+    }
+  }
+
+  .form-block-scheduling-section {
+    .form-block-scheduling-toggle {
+    }
+
+    .ws-period {
+      margin-bottom: 0 !important;
+    }
+  }
+}
+
+.date-picker-schedule-w {
+  display: block !important;
+
+  .custom-day-settings-w {
+    border-bottom: none;
+  }
+}
